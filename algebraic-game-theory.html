@@ -1,11 +1,273 @@
+<!DOCTYPE html>
 <html lang="en">
-  <body>
-    <div style="display: flex;">
-      <h2 id="page-title">Algebraic Game Theory (SoSe 25) at Max Planck Institute for Mathematics in the Sciences</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebraic Game Theory (SoSe 25) Schedule</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: left;
+            min-height: 100vh;
+            background-color: #fff;
+            font-family: 'Lato', sans-serif;
+            line-height: 2.6em;
+            color: black;
+        }
+
+        h1 {
+            font-size: 44px;
+            color: #0abfbf;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: normal;
+            color: #333;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .important-info {
+            padding: 20px;
+            background-color: #f8f8f8;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .important-info h2 {
+            font-size: 24px;
+            color: #0abfbf;
+            text-align: center;
+        }
+
+        .important-info a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .important-info p {
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            width: 90%;
+            max-width: 1200px;
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .footnote {
+            margin-top: 50px;
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            background-color: #f2f2f2;
+            font-weight: normal;
+        }
+
+        @media (max-width: 1024px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .footnote {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            .footnote {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 14px;
+            }
+
+            .footnote {
+                font-size: 12px;
+            }
+        }
+         .schedule-table {
+        width: 90%;
+        max-width: 1400px;
+        border-collapse: collapse;
+        margin: 0 auto 40px auto;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        border: 1px solid #ddd;
+        padding: 16px;
+        vertical-align: top;
+        font-size: 18px;
+    }
+
+    .schedule-table th {
+        background-color: #f0f0f0;
+        color: #0abfbf;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .schedule-table td.blank {
+        background-color: #fafafa;
+        color: #999;
+        font-style: italic;
+    }
+
+    .schedule-table ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    </style>
+</head>
+<body>
+
+
+
+ <h1 id="page-title">Algebraic Game Theory (SoSe 25)</h1>
+ <h2 id="page-title">Max Planck Institute for Mathematics in the Sciences (G3 10 Lecture hall)</h2>
+ <div class="important-info">
+  <table class="schedule-table">
+    <colgroup>
+      <col style="width: 50%;">
+      <col style="width: 50%;">
+    </colgroup>
+    <tbody>
+         <tr>
+            <td>
+            <p>
+                <strong>Lecturer:</strong> <a href="mailto:mail@irem-portakal.de">Irem Portakal</a><br>
+                <strong>Exercise Sessions:</strong> <a href="mailto:elke.neuhaus@mis.mpg.de">Elke Neuhaus</a> and <a href="mailto: luca.sodomaco@mis.mpg.de">Luca Sodomaco</a>
+            </p>    
+            </td>    
+            <td class="blank">
+        <p>To get the latest updates and the Zoom link, please <a href="https://www.mis.mpg.de/events/event/algebraic-game-theory-1" target="_blank">register here</a>. After you register, you will receive an email for confirmation.</p>
+    </td>
+        </tr>
+    </tbody>
+ </table>
+ </div>
+
+ <table class="schedule-table">
+ <table class="schedule-table">
+    <colgroup>
+      <col style="width: 50%;">
+      <col style="width: 50%;">
+    </colgroup>
+    <thead>
+        <tr>
+            <th>Date/Topic</th>
+            <th>References</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <strong>April 29, 11:00 </strong> - A biased introduction to game theory<br>
+                <strong>April 30, 13:30</strong> - Exercise Session 1
+            </td>    
+            <td class="blank"><li><a href="https://mathematicalolympiads.wordpress.com/wp-content/uploads/2012/08/martin_j-_osborne-an_introduction_to_game_theory-oxford_university_press_usa2003.pdf" target="_blank">M- J. Osborne. An introduction to game theory, 2004.</a></li>
+            <li><a href="https://www.cs.upc.edu/~ia/nash51.pdf" target="_blank">J. Nash. Non-cooperative games, 1951.</a></li>
+                </ul></td>
+        </tr>
+        <tr>
+            <td>
+                <strong>May 6, 11:00</strong> - Nash equilibria I<br>
+                <strong>May 7, 13:30</strong> - Exercise Session 2
+            </td>
+            <td class="blank"><li><a href="https://math.berkeley.edu/~bernd/AGT/Chapter6.pdf" target="_blank">B. Sturmfels. Solving systems of polynomial equations (Chapter 6), 2002.</a></li></td>
+        </tr>
+        <tr>
+            <td>
+                <strong>May 13, 11:00</strong> - Nash equilibria II<br>
+                <strong>May 14, 13:30</strong> - Exercise Session 3
+            </td>
+            <td class="blank"><li><a href="https://arxiv.org/pdf/2504.03456" target="_blank">H. Abo, I. Portakal, L. Sodomaco. A vector bundle approach to Nash equilibria, 2025.</a></li></td>
+        </tr>
+        <tr>
+            <td>
+                <strong>May 20, 11:00</strong> - Correlated equilibria<br>
+                <strong>May 21, 13:30</strong> - Exercise Session 4
+            </td>
+            <td class="blank"><li><a href="https://www.jstor.org/stable/pdf/1911154.pdf?refreqid=fastly-default%3A1825fb4e4860b5d25621c13d322e0467&ab_segments=&initiator=&acceptTC=1" target="_blank">R. Aumann. Correlated equilibrium as an expression of Bayesian rationality, 1987.</a></li><li><a href="https://www.tandfonline.com/doi/full/10.1080/10586458.2024.2340000" target="_blank">M. Brandenburg, B. Hollering, I. Portakal. Combinatorics of correlated equilibria, 2024.</a></li></td>
+        </tr>
+        <tr>
+            <td>
+                <strong>May 27, 11:00</strong> - Dependency equilibria I<br>
+                <strong>May 28, 13:30</strong> - Exercise Session 5
+            </td>
+            <td class="blank"><li><a href="https://kops.uni-konstanz.de/server/api/core/bitstreams/e0aacef9-928c-4382-aab7-1cf1fbb2e89e/content" target="_blank">W. Spohn. Dependency equilibria, 2007.</a></li><li><a href="https://www.openstarts.units.it/server/api/core/bitstreams/12c8c6f4-d535-49e3-b6a5-d4f12c331b0f/content" target="_blank">I. Portakal and B. Sturmfels. Geometry of dependency equilibria, 2022.</a></li></td>
+        </tr>
+        <tr>
+            <td>
+                <strong>June 10, 11:00</strong> - Dependency equilibria II<br>
+                <strong>June 11, 13:30</strong> - Exercise Session 6
+            </td>
+            <td class="blank"><li><a href="https://pdf.sciencedirectassets.com/272528/1-s2.0-S0196885825X00051/1-s2.0-S0196885825000521/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD7P0%2ByZY4ecCJ6zfLBtvzkLKKrw%2Ftg%2FI9kB%2FKQZ53YjgIhANfVQVW2DGTnxhEEOTuF8JkO99ZDrHkx3fW%2BWso8ApF%2BKrMFCC0QBRoMMDU5MDAzNTQ2ODY1IgxmnpECCBM%2FWqcZeKYqkAUm3gdmwj7Kk0u2VCRge%2BzUXGjtda%2FULz1vfd1dLfe%2BORC1ho1WoWn2lKxo%2F5QA0o%2FupclpGCRCNd2E%2FvlpPd7tgb4xiQoYoPGn4RMAHxHo73QCvLRYYVkijRY3NzZkJhEhF3BCTBUzFgQcjgK8w9GuksYoOj0OCr2z3%2BV6ldL6z9l%2BEE%2Fgn0Y%2Brz1%2F3AtikGC%2BY2Zk%2F%2Bjg2PINkKpjGoZJMUi63d6zKIRd86nol1FsI7mef%2FRciKnSqHJ%2FAimDg15w9RczKs6zh7DzVohYIa51mYuFUV9WY35%2B58siAQUrK59xNkA3Kq4cTZ33v%2FrwpACybsnXIJwz%2BQSBapvgiIjxPt0WVPrgMm13Dd1n1rTtFRE7iT2KKULTRauMjiUXjTmr9IJQZnLKJfiVW25zSILKDbxZw6PRf8LjpklIazQSCI71mlmge9rhX05U%2FkzBXo9cujhWl3BuLJpZfn5Fmc4HA42D2vSJTIeRc60W91JfUmk7YOzVDjoro6zAfalhUaj9Ouy3ca%2FkPHxTBssVc8BEe8C6%2Bz5luPhisQiHsXLPlG7qOQMp%2BItH8l%2BG8cnWr4TgwANX1%2BIcOilbCJCOBJT7iBrZWZjAPd7NiF3trVgRFdcvwWp7q%2FYs9r5YvMa73TEyFLUXKkzWxWl%2FqIobhX8AjLDizyydX0RASDISfO2IEkE9ya4Qp3wN3JWjlXX6hn4ifghQfuqNLU7CgxKGkSjT%2BJ6DRVZ6CwH%2F3Hlqgpps2b9mCWSvTD%2F%2FJ1fT2ifxfAWUzFZJiwOykcdJhLMghVMC9KFlHH3itq0CLIwgNpJ4O78quwaT9PcsLk65XHz48Hm1ibm%2Feig44BoBsEvg%2B5QFHG4nEI8hpVw74iqvEV8UPDDp4K3ABjqwAcOSi2XS69wMCEEnOtlsFDnkfBEgMCM0DCEFzFF4gkbbY1TUfjdsJsvta5j812YqRO2uEAlXrwRjZZfBA5%2BXf0ndi%2FS09y015LAcLW3pC8WxG8kpLAUik%2BvYzm0DMpCISkeFQMXDyi5zRyuR9c6Gi9xDKuB3ZUl%2F2LzlkQih1%2BUwKJnfY3UMksl%2Bc1Z%2FKD%2F5CBi1S1Ue2ehfvvFqeEXqbHj2W1FF8UYAHFa9KpsJngei&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250425T115231Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYU5TNC5YN%2F20250425%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e767f60fdd0546586c8b76032d1266eeaa4b6706f562f364487e22b3dc205d11&hash=e7f6f22bcde5a3b675cf8445a65ba19629d82780d06c78bfb9a5a959a1dd6381&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0196885825000521&tid=spdf-9f425a6d-f95f-4857-849b-37a3bfbc51f4&sid=684d3f6a4692434fcd5951042dbf4b2e44d4gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1e0b5753520101515504&rr=935da27d5d289f11&cc=de" target="_blank">I. Portakal and D. Windisch. Dependency equilibria: Boundary cases and their
+real algebraic geometry, 2025.</a></li><li><a href="https://arxiv.org/abs/2501.14612" target="_blank">A. Kidambi, E. Neuhaus, I. Portakal. Elliptic curves in game theory, 2025.</a></li></td>
+        </tr>
+        <tr>
+            <td>
+                <strong>June 17, 11:00</strong> - Conditional independence equilibria <br>
+                <strong>June 18, 13:30</strong> - Exercise Session 7
+            </td>
+            <td class="blank"><li><a href="https://www.sciencedirect.com/science/article/pii/S0021869324006707" target="_blank">I. Portakal and J. Sendra-Arranz. Game theory of undirected graphical models, 2025.</a></li></td>
+        </tr>
+    </tbody>
+</table>   
+
+     <div class="important-info">
+        <h2>Code/Package</h2>
+        <p>
+        <a href="https://github.com/Macaulay2/Workshop-2024-Leipzig/blob/game-theory/GameTheory/GameTheory.m2" target="_blank">GameTheory.m2 - a package to compute equilibria in game theory. <br>
+        <a href="https://www.juliahomotopycontinuation.org/examples/nash/" target="_blank">HomotopyContinuation: Polynomial systems arising from Nash equilibria</a> <br>
+        <a href="https://mathrepo.mis.mpg.de/vector-bundle-nash-equilibria/index.html" target="_blank">MATHREPO: A vector bundle approach to Nash equilibria</a> <br>
+        <a href="https://mathrepo.mis.mpg.de/correlated-equilibrium/index.html" target="_blank">MATHREPO: Combinatorics of correlated equilibria</a> <br>
+        <a href="https://mathrepo.mis.mpg.de/elliptic_curves_game_theory/" target="_blank">MATHREPO: Elliptic curves in game theory</a> <br>
+        </p>
+    </div>
+    <div class="footnote">
+        © Please do not distribute the lecture notes/exercise session shared during this lecture without my permission.
     </div>
 
-    <p> Coming soon...
-    </p>
-
-  </body>
+</body>
 </html>
+
